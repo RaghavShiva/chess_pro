@@ -1,8 +1,16 @@
 *{
     margin:0;
     padding:0;
+    font-family: sans-serif;
+    font-size: larger;
 }
-
+.game{
+    margin-top: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 .gameboard{
     height: 400px;
     width: 400px;
@@ -18,11 +26,11 @@
 }
 
 .brown{
-    background-color: brown;
+    background-color: rgb(55, 116, 55);
 }
 
 .beige {
-    background-color: rgb(112, 112, 96);
+    background-color: rgb(220, 220, 155);
 }
 
 .square svg{
@@ -44,5 +52,5 @@ path{
     fill: rgb(27, 24, 24);
 }
 .white{
-    fill: rgb(240, 233, 233);
+    fill: rgb(251, 251, 251);
 }
